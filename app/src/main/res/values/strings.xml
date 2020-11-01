@@ -4,4 +4,10 @@
     <string name="settings">Settings</string>
     <string name="temperature_feels_like">Temperature --Feels like --</string>
     <string name="rain_wind_15_m_s_n">Rain, Wind 15 m/s, N</string>
+    <string name="moscow">Moscow</string>
+    <string name="saint_petersburg">Saint-Petersburg</string>
+    <string name="kaliningrad">Kaliningrad</string>
+    <string name="ekaterinburg">Ekaterinburg</string>
+    <string name="enter_city_here">enter city here</string>
+    <string name="change">change</string>
 </resources>

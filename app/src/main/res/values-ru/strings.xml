@@ -5,4 +5,10 @@
     <string name="settings">Настройки</string>
     <string name="temperature_feels_like">Температура --   Ощущается как --</string> <!--наверное надо через несколько текствью делать и тянуть данные из инета-->
     <string name="rain_wind_15_m_s_n">Дождь, Ветер 15 м/с, С</string>
+    <string name="moscow">Москва</string>
+    <string name="saint_petersburg">Санкт-Петербург</string>
+    <string name="kaliningrad">Калининград</string>
+    <string name="ekaterinburg">Екатеринбург</string>
+    <string name="enter_city_here">введите название города</string>
+    <string name="change">изменить</string>
 </resources>
