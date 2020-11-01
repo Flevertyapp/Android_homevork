@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода в кармане</string>  <!--здесь живет перевод на русский-->
+    <string name="weather_in_moscow">Погода в Москве</string> <!--наверное надо через 2 текствью делать и вытягивать геолокацию-->
+    <string name="settings">Настройки</string>
+    <string name="temperature_feels_like">Температура --   Ощущается как --</string> <!--наверное надо через несколько текствью делать и тянуть данные из инета-->
+    <string name="rain_wind_15_m_s_n">Дождь, Ветер 15 м/с, С</string>
+</resources>
