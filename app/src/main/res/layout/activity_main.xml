@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".WeatherActivity">
 
     <TextView
         android:id="@+id/city"
         android:layout_width="281dp"
         android:layout_height="52dp"
         android:text="@string/weather_in_moscow"
-        android:textSize="30sp"
+        android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -29,10 +29,9 @@
         android:layout_marginBottom="13dp"
         android:onClick="onClick"
         android:text="@string/settings"
-        android:textSize="15sp"
+        android:textSize="@dimen/text_size"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -58,7 +57,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="221dp"
         android:text="@string/temperature_feels_like"
-        android:textSize="20sp"
+        android:textSize="@dimen/text_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
@@ -69,7 +68,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="27dp"
         android:layout_marginEnd="5dp"
-        android:textSize="25sp"
+        android:textSize="@dimen/text_size"
         android:text="@string/rain_wind_15_m_s_n"
         app:layout_constraintEnd_toEndOf="@+id/temperature"
         app:layout_constraintStart_toStartOf="@+id/temperature"
